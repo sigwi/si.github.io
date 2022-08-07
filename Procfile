@@ -1,2 +1,2 @@
-web: gunicorn mycv.wsgi
+web: gunicorn macro.wsgi
 release: python manage.py migrate
