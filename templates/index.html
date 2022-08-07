@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class='tableauPlaceholder' id='viz1659636909858' >
+  <noscript>
+    <a href='#'>
+      <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GD&#47;GDP_16596367430140&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='GDP_16596367430140&#47;Dashboard1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GD&#47;GDP_16596367430140&#47;Dashboard1&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElementGdp = document.getElementById('viz1659636909858');
+  var vizElementGdp = divElementGdp.getElementsByTagName('object')[0];
+  if ( divElementGdp.offsetWidth > 800 ) { vizElementGdp.style.width='1000px';vizElementGdp.style.height='827px';}
+  else if ( divElementGdp.offsetWidth > 500 ) { vizElementGdp.style.width='1000px';vizElementGdp.style.height='827px';}
+  else { vizElementGdp.style.width='100%';vizElementGdp.style.height='727px';}
+  var scriptElementGdp = document.createElement('script');
+  scriptElementGdp.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElementGdp.parentNode.insertBefore(scriptElementGdp, vizElementGdp);
+</script>
+
+{% endblock content %}
